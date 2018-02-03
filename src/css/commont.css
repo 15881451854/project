@@ -1,0 +1,56 @@
+@charset "UTF-8";
+/*头部公共样式*/
+/*下标的公共样式*/
+#header .header_t .header_tl i, #header .header_t .header_tr li i { width: 11px; height: 8px; display: inline-block; background: url("../img/sp.fw.png") no-repeat; margin: 0 2px; }
+
+#header { font-size: 14px; color: #777777; }
+
+#header .header_t { background: #FAFAFA; }
+
+#header .header_t .header_tl { line-height: 30px; padding: 0 10px; cursor: default; position: relative; }
+
+#header .header_t .header_tl:hover { border-left: 1px solid #ccc; border-right: 1px solid #ccc; background: #fff; padding-left: 9px; }
+
+#header .header_t .header_tl:hover ul { display: block; }
+
+#header .header_t .header_tl:hover i { background-position: -11px 0; }
+
+#header .header_t .header_tl ul { position: absolute; top: 30px; left: -1px; width: 250px; padding: 10px; border: 1px solid #ccc; display: none; }
+
+#header .header_t .header_tl ul li { float: left; padding: 0 5px; line-height: 20px; margin-left: 10px; margin-top: 5px; cursor: pointer; }
+
+#header .header_t .header_tl ul li:hover { background: #EEEEEE; color: #FFA500; }
+
+#header .header_t .header_tl ul .active { color: #fff; background: #FFA500; }
+
+#header .header_t .header_tr li { float: left; line-height: 14px; margin: 8px 0 0 10px; padding-left: 10px; cursor: pointer; cursor: default; position: relative; }
+
+#header .header_t .header_tr li .black { color: #000; }
+
+#header .header_t .header_tr li .phone, #header .header_t .header_tr li .weixing { width: 17px; height: 22px; background-position: -24px 0; position: absolute; left: 4px; top: -2px; }
+
+#header .header_t .header_tr li .weixing { background-position: -43px 0; }
+
+#header .header_t .header_tr li ul { position: absolute; left: 0px; width: 90px; display: none; }
+
+#header .header_t .header_tr li ul li { padding: 0; line-height: 18px; }
+
+#header .header_t .header_tr .abs { padding-left: 35px; }
+
+#header .header_t .header_tr .login a { color: #FFA500; }
+
+#header .header_t .header_tr .black a { color: #000; }
+
+#header .header_t .header_tr .line { border-left: 1px solid #ccc; }
+
+#header .header_t .header_tr .pull:hover i { background-position: -11px 0; }
+
+#header .header_t .header_tr .pull:hover ul { display: block; }
+
+#header .header_t .header_tr .ma img { position: absolute; left: 0px; top: 25px; display: none; }
+
+#header .header_t .header_tr .ma:hover img { display: block; }
+
+#header .header_t .header_tr .ma:hover .r { background-position: -11px 0; }
+
+#header .header_c h1 { width: 485px; height: 98px; background: url("../img/logo.png"); }
