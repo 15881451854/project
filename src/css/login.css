@@ -1,0 +1,39 @@
+#login .login_r i { display: inline-block; width: 44px; height: 38px; background: url("../img/sp.fw.png") -249px -32px; }
+
+#header div { line-height: 100px; }
+
+#header div a { color: #000; margin-left: 40px; }
+
+#login { background: #E2EBE8; padding: 46px 87px 109px 0; }
+
+#login .login_r { width: 344px; height: 474px; background: #fff; }
+
+#login .login_r .lock { background-position: -248px -83px; }
+
+#login .login_r .shield { background-position: -246px -131px; }
+
+#login .login_r .title { text-align: right; margin-top: 50px; margin-right: 20px; font-size: 14px; }
+
+#login .login_r .title a { color: #FF9900; }
+
+#login .login_r .inp { width: 304px; height: 46px; border: 1px solid #ccc; margin: 30px 0 0 20px; }
+
+#login .login_r .inp input { width: 135px; height: 30px; border-left: 1px solid #ccc; padding-left: 10px; margin-top: 6px; }
+
+#login .login_r .inp span { width: 120px; line-height: 44px; text-align: center; background: #ccc; color: #fff; cursor: default; }
+
+#login .login_r .forget { text-align: right; font-size: 14px; line-height: 40px; margin-right: 20px; }
+
+#login .login_r .sub input { width: 304px; height: 46px; margin: 30px 0 0 20px; background: #FF9900; border-radius: 5px; color: #fff; }
+
+#footer { border-top: 1px solid #ccc; padding: 30px 0 50px 0; }
+
+#footer div { text-align: center; }
+
+#footer div a { font-size: 12px; color: #666; border-right: 1px solid #ccc; padding: 0 10px; line-height: 32px; }
+
+#footer div a:hover { text-decoration: underline; }
+
+#footer div .clear { border: 0 none; }
+
+#footer p { text-align: center; font-size: 12px; line-height: 20px; color: #666; }
