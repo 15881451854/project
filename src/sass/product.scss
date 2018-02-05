@@ -1,0 +1,180 @@
+%i{
+    width:16px;
+    height:14px;
+    display:inline-block;
+    background:url("../img/sp.fw.png") -142px 2px;
+}
+
+
+
+
+
+#product{
+    border-top:2px solid #000;
+    .point{
+        line-height:40px;
+       i{
+        @extend %i;
+       }
+       a{
+        font-size:12px;
+        color:#777777;
+       } 
+    }
+
+    .product_l{
+        width:208px;
+        font-size:12px;
+        color:#555555;
+        border:1px solid #ccc;
+        .filter{
+            line-height:37px;
+            background:#F5F5F5;
+            padding-left:10px;
+        }
+        .furniture{
+            padding-left:10px;
+            line-height:20px;
+            i{
+                @extend %i;
+                width:13px;
+                height:13px;
+                background-position:-162px 0;
+                margin-right:5px;
+            }
+        }
+        dl{
+            dt{
+                padding-left:20px;
+                line-height:20px;
+                i{
+                    @extend %i;
+                    width:13px;
+                    height:13px;
+                    background-position:-162px 0;
+                    margin-right:5px;
+                }
+            }
+            dd{
+                line-height:20px;
+                padding-left:50px;
+            }
+            .active{
+                color:#FFA500;
+            }
+        }
+    }
+
+    .product_r{
+        width:980px;
+        .product_rt{
+            background:#F7F7F7;
+            height:40px;
+            border:1px solid #D7D7D7;
+            font-size:12px;
+            color:#777777;
+            .style{
+                line-height:37px;
+                padding:0 10px;
+                border-right:1px solid #D6D6D6;
+            }
+            ul{
+                li{
+                    float:left;
+                    line-height:37px;
+                    padding:0 10px;
+                    border-right:1px solid #D6D6D6;
+                    cursor:pointer;
+                    i{
+                        @extend %i;
+                        width:11px;
+                        height:11px;
+                        background-position:-195px 0;
+                    }
+                    &:hover{
+                        background:#fff;
+                        color:#FFA500;
+                        border-bottom:3px solid #fff;
+                    }
+                }
+                .active{
+                    background:#fff;
+                    color:#FFA500;
+                    border-bottom:3px solid #fff;
+                }
+            }
+            .area{
+                line-height:37px;
+                margin-left:74px;
+            }
+            .area_check{
+                width:70px;
+                text-align:center;
+                line-height:22px;
+                border:1px solid #D6D6D6;
+                background:#fff;
+                margin-top:6px;
+                position:relative;
+                i{
+                    @extend %i;
+                        width:11px;
+                        height:11px;
+                        background-position:-209px 0;
+                }
+
+                .area_click{
+                    width:368px;
+                    position:absolute;
+                    background:#fff;
+                    border:1px solid #ccc;
+                    left:-150px;
+                    padding-top:10px;
+                    p{
+                        text-align:left;
+                        padding-left:10px;
+                    }
+                    ul{
+                        li{
+                            float:left;
+                            margin-right:30px;
+                            border:0 none;
+                        }
+                    }
+                    .province{
+                        div{
+                            width:80px;
+                            float:left;
+                            padding-left:10px;
+                            dl{
+                                overflow:hidden;
+                                width:50px;
+                                margin-top:10px;
+                                dt{
+                                    float:left;
+                                }
+                                dd{
+                                    float:right;
+                                    border-right:1px dotted #ccc;
+                                    padding-right:10px;
+                                }
+                            }
+                        }
+                    }
+                    .unlimited{
+                        background:#F1F1F1;
+                    }
+                }
+            }
+            .page{
+                p{
+                    width:50px; 
+                    line-height:20px;
+                    text-align:center;
+                    border:1px solid #D6D6D6;
+                    margin:7px 7px 0 0;
+                    cursor:pointer;
+                }
+            }
+        }
+    }
+}

@@ -325,20 +325,23 @@ $background:(url("../img/sp.fw.png") no-repeat);
             .recommend{
                 position:absolute;
                 left:0;
-                padding:5px;
+                padding-left:10px;
                 font-size:12px;
-                background:#2B2B2B;
+                background:rgba(0,0,0,0.7);
                 z-index:998;
                 display:none;
+                height:400px;
+                overflow:hidden;
                 h4{
                     color:#FFA500;
                 }
                 ul{
                     li{
                         float:left;
-                        margin-right:5px;
+                        margin-right:8px;
                         line-height:22px;
                         a{
+                            letter-spacing:1px;
                             color:#fff;
                             transition:all 0.5s;
                         }
@@ -368,11 +371,12 @@ $background:(url("../img/sp.fw.png") no-repeat);
                 .menu{
                     width:988;
                     background:#fff;
-                        padding:10px;
+                    padding:10px;
                     position:absolute;
                     left:212px; 
-                    top:36px;
+                    top:38px;
                     display:none;
+                    z-index:100;
                     dl{
                         width:300px;
                         overflow:hidden;

@@ -113,13 +113,13 @@
 
 #header .nav h2:hover .recommend { display: block; }
 
-#header .nav h2 .recommend { position: absolute; left: 0; padding: 5px; font-size: 12px; background: #2B2B2B; z-index: 998; display: none; }
+#header .nav h2 .recommend { position: absolute; left: 0; padding-left: 10px; font-size: 12px; background: rgba(0, 0, 0, 0.7); z-index: 998; display: none; height: 400px; overflow: hidden; }
 
 #header .nav h2 .recommend h4 { color: #FFA500; }
 
-#header .nav h2 .recommend ul li { float: left; margin-right: 5px; line-height: 22px; }
+#header .nav h2 .recommend ul li { float: left; margin-right: 8px; line-height: 22px; }
 
-#header .nav h2 .recommend ul li a { color: #fff; transition: all 0.5s; }
+#header .nav h2 .recommend ul li a { letter-spacing: 1px; color: #fff; transition: all 0.5s; }
 
 #header .nav h2 .recommend ul li:hover a { color: #FFA500; }
 
@@ -131,7 +131,7 @@
 
 #header .nav .nav_c li:hover .menu { display: block; }
 
-#header .nav .nav_c li .menu { width: 988; background: #fff; padding: 10px; position: absolute; left: 212px; top: 36px; display: none; }
+#header .nav .nav_c li .menu { width: 988; background: #fff; padding: 10px; position: absolute; left: 212px; top: 38px; display: none; z-index: 100; }
 
 #header .nav .nav_c li .menu dl { width: 300px; overflow: hidden; margin-right: 20px; }
 
