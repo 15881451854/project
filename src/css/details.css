@@ -1,0 +1,181 @@
+.smallList img { width: 80px; }
+
+.gds-zoom-big img { min-width: 1000px; }
+
+#details .point i, #details .details_c .info .grade i, #details .details_c .buy .add i, #details .details_r .zhong i, #details .details_r .conn i, #comment .comment_l .con p i, #comment .comment_l .con dl dd i, #comment .comment_l .rank .content ul li i { display: inline-block; width: 13px; height: 10px; background: url("../img/sp.fw.png") no-repeat -144px -2px; }
+
+#details { border-top: 2px solid #000; }
+
+#details .point { line-height: 38px; color: #777777; font-size: 12px; }
+
+#details .point a { color: #777777; }
+
+#details .details_l { width: 402px; border: 1px solid #ccc; }
+
+#details .details_l .zoom { width: 400px; height: 400px; }
+
+#details .details_l .zoom img { width: 400px; height: 400px; border-bottom: 1px solid #ccc; }
+
+#details .details_l .details_img { width: 400px; padding: 20px; }
+
+#details .details_l .details_img ul li { border: 1px solid #ccc; margin-left: 10px; }
+
+#details .details_l .details_img ul li img { width: 57px; height: 57px; }
+
+#details .details_l .details_img .left, #details .details_l .details_img .right { width: 12px; line-height: 57px; background: #EBEBEB; color: #333333; font-size: 12px; cursor: pointer; }
+
+#details .details_l p { line-height: 46px; font-size: 12px; color: #777777; padding-left: 33px; position: relative; }
+
+#details .details_l p span { position: absolute; border: 1px solid #ccc; line-height: 20px; right: 66px; top: 12px; padding: 0 5px; border-radius: 5px; }
+
+#details .details_c { width: 587px; background: #FAFAFA; border: 1px solid #ccc; }
+
+#details .details_c .title { line-height: 50px; padding: 0 20px; font-size: 20px; font-weight: bold; }
+
+#details .details_c .desc { line-height: 18px; font-size: 12px; color: #FF0000; padding: 0 20px; letter-spacing: 1px; }
+
+#details .details_c .info { background: #EEEEEE; padding: 20px; margin-top: 24px; font-size: 12px; color: #666666; }
+
+#details .details_c .info p { line-height: 28px; }
+
+#details .details_c .info .price_o { letter-spacing: 3px; }
+
+#details .details_c .info .price_o span { letter-spacing: 0; font-weight: bold; text-decoration: line-through; }
+
+#details .details_c .info .price_n { letter-spacing: 3px; }
+
+#details .details_c .info .price_n span { letter-spacing: 0; font-size: 18px; color: #FFA542; font-weight: bold; }
+
+#details .details_c .info .grade p { text-align: center; }
+
+#details .details_c .info .grade i { width: 90px; height: 15px; background-position: -138px -16px; }
+
+#details .details_c .delivery { line-height: 28px; color: #666666; font-size: 12px; padding-left: 34px; border-bottom: 1px dotted #DDDDDD; }
+
+#details .details_c .delivery span { margin-right: 8px; }
+
+#details .details_c .num { margin-top: 22px; padding-left: 34px; font-size: 12px; }
+
+#details .details_c .num .qty { width: 46px; height: 28px; text-align: center; border: 1px solid #ccc; margin-left: 10px; }
+
+#details .details_c .num .repertory { color: #999999; margin-left: 35px; }
+
+#details .details_c .buy { padding-left: 16px; padding: 65px 0 23px 0; }
+
+#details .details_c .buy .now_buy, #details .details_c .buy .add { width: 100px; line-height: 32px; background: #BA7538; color: #fff; border-radius: 5px; text-align: center; margin-left: 17px; cursor: pointer; }
+
+#details .details_c .buy .add { background: #FFA500; width: 138px; }
+
+#details .details_c .buy .add i { width: 21px; height: 16px; background-position: -242px 0; }
+
+#details .details_c .succeed { width: 320px; text-align: center; font-size: 12px; border: 1px solid #ccc; padding: 10px 0 30px 0; position: relative; margin-left: 16px; }
+
+#details .details_c .succeed .succ { font-size: 18px; height: 32px; }
+
+#details .details_c .succeed .inl { margin-bottom: 10px; }
+
+#details .details_c .succeed .inl .tatol { color: #FFA500; margin-left: 4px; font-weight: bold; }
+
+#details .details_c .succeed a { padding: 0 10px; line-height: 20px; background: #5BB75B; color: #fff; }
+
+#details .details_c .succeed .conti { line-height: 20px; padding: 0 20px; border: 1px solid #ccc; margin-left: 4px; cursor: pointer; }
+
+#details .details_c .succeed .close { position: absolute; right: 4px; top: 4px; cursor: pointer; }
+
+#details .details_r { width: 210px; border: 1px solid #ccc; font-size: 12px; }
+
+#details .details_r .fei { line-height: 32px; background: #F5F5F5; color: #555555; font-size: 14px; padding-left: 10px; }
+
+#details .details_r .zhong { padding: 10px 0 10px 6px; }
+
+#details .details_r .zhong i { width: 82px; height: 15px; background-position: -94px -209px; }
+
+#details .details_r .zhong span { color: #FFA500; font-weight: bold; }
+
+#details .details_r ul { border-bottom: 1px dotted #ccc; }
+
+#details .details_r ul li { padding: 5px 10px; color: #999999; }
+
+#details .details_r ul li .ping { color: #333; margin-right: 10px; }
+
+#details .details_r ul li .chi { color: #FFA500; }
+
+#details .details_r ul li .kua { width: 42px; height: 19px; display: inline-block; background: #FFA500; color: #fff; text-align: center; }
+
+#details .details_r .conn { position: relative; line-height: 30px; padding-left: 10px; border-bottom: 1px solid #ccc; }
+
+#details .details_r .conn i { width: 27px; height: 23px; background-position: -269px 0; position: absolute; left: 70px; top: 5px; }
+
+#details .details_r .link { line-height: 42px; }
+
+#details .details_r .link a { color: #005EA6; margin-left: 10px; }
+
+#comment { margin-top: 10px; }
+
+#comment .comment_l { width: 208px; }
+
+#comment .comment_l .con { border: 1px solid #ccc; padding-bottom: 15px; }
+
+#comment .comment_l .con p { color: #666666; position: relative; line-height: 46px; padding-left: 10px; border-bottom: 1px solid #ccc; }
+
+#comment .comment_l .con p i { position: absolute; width: 27px; height: 23px; background-position: -269px 0; top: 12px; left: 130px; }
+
+#comment .comment_l .con dl { font-size: 12px; padding-left: 10px; }
+
+#comment .comment_l .con dl dt { color: #000; line-height: 34px; }
+
+#comment .comment_l .con dl dd { padding-left: 24px; line-height: 20px; position: relative; }
+
+#comment .comment_l .con dl dd i { position: absolute; width: 27px; height: 23px; background-position: -269px 0; top: 0px; left: 65px; }
+
+#comment .comment_l .classify { border: 1px solid #ccc; margin-top: 10px; }
+
+#comment .comment_l .classify .fen { line-height: 30px; background: #F7F7F7; padding-left: 10px; color: #666666; border-bottom: 1px solid #ccc; }
+
+#comment .comment_l .classify ul { padding: 10px 0; background: #F7F7F7; border-bottom: 1px solid #ccc; }
+
+#comment .comment_l .classify ul li { float: left; font-size: 12px; cursor: pointer; padding: 0 5px; line-height: 20px; margin-left: 4px; transition: all 0.5s; }
+
+#comment .comment_l .classify ul li:hover { background: #ccc; border-radius: 5px; }
+
+#comment .comment_l .classify .sear { padding: 5px 0; border-bottom: 1px dotted #ccc; }
+
+#comment .comment_l .classify .sear input { margin-left: 5px; }
+
+#comment .comment_l .classify .sear .search { width: 128px; height: 30px; border: 1px solid #ccc; }
+
+#comment .comment_l .classify .sear .btn { width: 61px; line-height: 30px; background: #F5F5F5; border: 1px solid #ccc; }
+
+#comment .comment_l .classify .all { line-height: 40px; color: #333333; font-weight: bold; font-size: 12px; padding-left: 20px; }
+
+#comment .comment_l .rank { border: 1px solid #ccc; }
+
+#comment .comment_l .rank .pai { line-height: 32px; padding-left: 10px; background: #F7F7F7; color: #666666; font-size: 12px; font-weight: bold; border-bottom: 1px solid #ccc; }
+
+#comment .comment_l .rank .item { padding-top: 5px; border-bottom: 1px solid #ccc; }
+
+#comment .comment_l .rank .item li { font-size: 12px; float: left; border: 1px solid #ccc; border-radius: 5px; margin-left: 13px; line-height: 30px; padding: 0 5px; cursor: pointer; }
+
+#comment .comment_l .rank .item .active { background: #F7F7F7; }
+
+#comment .comment_l .rank .content { position: relative; height: 360px; }
+
+#comment .comment_l .rank .content ul { font-size: 12px; position: absolute; }
+
+#comment .comment_l .rank .content ul li { padding: 10px 0; overflow: hidden; border-bottom: 1px dotted #ccc; }
+
+#comment .comment_l .rank .content ul li img { widows: 48px; height: 48px; border: 1px solid #ccc; margin: 0 5px; }
+
+#comment .comment_l .rank .content ul li i { width: 18px; height: 14px; background-position: -186px -211px; margin: 0 5px; }
+
+#comment .comment_r { width: 980px; border: 1px solid #ccc; }
+
+#comment .comment_r ul { border-bottom: 1px solid #ccc; font-size: 12px; background: #FCFCFC; }
+
+#comment .comment_r ul li { float: left; background: #F5F5F5; color: #777777; line-height: 32px; border: 1px solid #ccc; padding: 0 15px; cursor: pointer; }
+
+#comment .comment_r ul .active { background: #fff; border-top: 2px solid #FFA500; }
+
+#comment .comment_r p { line-height: 52px; font-size: 12px; padding-left: 50px; }
+
+#comment .comment_r p span { margin-right: 100px; }
