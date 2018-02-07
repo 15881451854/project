@@ -1,7 +1,9 @@
 @charset "UTF-8";
 /*头部公共样式*/
 /*下标的公共样式*/
-#header .header_t .header_tl i, #header .header_t .header_tr li i, #header .header_c .center .inp .check i, #header .header_c .cart i, #header .nav h2 i { width: 11px; height: 8px; display: inline-block; background: url("../img/sp.fw.png") no-repeat; margin: 0 2px; }
+.fixex_rigin .section .login i, .fixex_rigin .section .cart i, .fixex_rigin .section .qq, .fixex_rigin .top i, #header .header_t .header_tl i, #header .header_t .header_tr li i, #header .header_c .center .inp .check i, #header .header_c .cart i, #header .nav h2 i { width: 11px; height: 8px; display: inline-block; background: url("../img/sp.fw.png") no-repeat; margin: 0 2px; }
+
+.fixex_rigin .section .login i, .fixex_rigin .section .cart i, .fixex_rigin .section .qq, .fixex_rigin .top i { width: 34px; height: 34px; background-position: -3px -349px; }
 
 #header { font-size: 14px; color: #777777; }
 
@@ -148,6 +150,39 @@
 #header .nav .nav_c li .menu .three { height: 90px; }
 
 #header .nav .nav_c li .menu .one1 { height: 124px; }
+
+/*固定在右边*/
+.fixex_rigin { width: 37px; height: 100%; background: #000; position: fixed; top: 0; right: 0; z-index: 100000; }
+
+.fixex_rigin .section { color: #fff; position: absolute; top: 50%; transform: translate(0, -50%); }
+
+.fixex_rigin .section .login { width: 37px; height: 37px; }
+
+.fixex_rigin .section .login:hover { background: #FFA500; }
+
+.fixex_rigin .section .login:hover a { display: block; }
+
+.fixex_rigin .section .login i { margin-right: 100px; }
+
+.fixex_rigin .section .login a { font-size: 12px; position: absolute; width: 100px; line-height: 37px; text-align: center; top: 0px; right: 37px; background: rgba(0, 0, 0, 0.8); color: #fff; display: none; }
+
+.fixex_rigin .section .login a:before { content: ""; display: block; width: 0; height: 0; position: absolute; top: 8px; right: -17px; border: 10px solid #000; border-right-color: transparent; border-top-color: transparent; border-bottom-color: transparent; }
+
+.fixex_rigin .section .cart { width: 37px; padding: 15px 5px; cursor: pointer; border-top: 1px dotted #AAAAAA; border-bottom: 1px dotted #AAAAAA; }
+
+.fixex_rigin .section .cart i { background-position: -57px -354px; }
+
+.fixex_rigin .section .cart p { width: 20px; margin-left: 5px; }
+
+.fixex_rigin .section .cart:hover { background: #FFA500; }
+
+.fixex_rigin .section .qq { margin-top: 10px; background-position: -98px -352px; }
+
+.fixex_rigin .top { width: 37px; height: 37px; position: fixed; bottom: 10px; right: 0px; padding-top: 4px; }
+
+.fixex_rigin .top i { width: 34px; height: 26px; background-position: -135px -355px; }
+
+.fixex_rigin .top:hover { background: #7F5200; }
 
 /*尾部的公共样式*/
 #icon { border-top: 4px solid #E7E7E7; padding-top: 26px; }

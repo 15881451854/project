@@ -8,6 +8,12 @@ $background:(url("../img/sp.fw.png") no-repeat);
     background:$background;
     margin:0 2px;
 }
+%i1{
+    @extend %i;
+        width:34px;
+        height:34px;
+        background-position:-3px -349px;
+}
 
 #header{
     font-size:14px;
@@ -415,6 +421,104 @@ $background:(url("../img/sp.fw.png") no-repeat);
                     }
                 }
             }
+        }
+    }
+}
+
+
+
+/*固定在右边*/
+.fixex_rigin{
+    width:37px;
+    height:100%;
+    background:#000;
+    position:fixed;
+    top:0;
+    right:0;
+    z-index:100000;
+    .section{
+        color:#fff;
+        position:absolute;
+        top:50%;
+        transform:translate(0,-50%);
+        .login{
+            width:37px;
+            height:37px;
+            &:hover{
+                background:#FFA500;
+            }
+            &:hover a{
+                display:block;
+            }
+            i{
+                @extend %i1;
+                margin-right:100px;
+            }
+            a{
+                font-size:12px;
+                position:absolute;
+                width:100px;
+                line-height:37px;
+                text-align:center;
+                top:0px;
+                right:37px;
+                background:rgba(0,0,0,0.8);
+                color:#fff;
+                display:none;
+                &:before{
+                    content:"";
+                    display:block;
+                    width:0;
+                    height:0;
+                    position:absolute;
+                    top:8px;
+                    right:-17px;
+                    border:10px solid #000;
+                    border-right-color:transparent;
+                    border-top-color:transparent;
+                    border-bottom-color:transparent;
+                }
+            }
+        }
+        .cart{
+            width:37px;
+            padding:15px 5px;
+            cursor:pointer;
+            border-top:1px dotted #AAAAAA;
+            border-bottom:1px dotted #AAAAAA;
+            i{
+                @extend %i1;
+                background-position:-57px -354px;
+            }
+            p{
+                width:20px;
+                margin-left:5px;
+            }
+            &:hover{
+                background:#FFA500;
+            }
+        }
+        .qq{
+            @extend %i1;
+            margin-top:10px;
+            background-position:-98px -352px;
+        }
+    }
+    .top{
+        width:37px;
+        height:37px;
+        position:fixed;
+        bottom:10px;
+        right:0px;
+        padding-top:4px;
+        i{
+            @extend %i1;
+            width:34px;
+            height:26px;
+            background-position:-135px -355px;
+        }
+        &:hover{
+            background:#7F5200;
         }
     }
 }

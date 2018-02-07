@@ -64,11 +64,15 @@
 
 #product .product_r .product_rt .area_check .area_click .unlimited { background: #F1F1F1; }
 
-#product .product_r .product_rt .page p { width: 50px; line-height: 20px; text-align: center; border: 1px solid #D6D6D6; margin: 7px 7px 0 0; cursor: pointer; }
+#product .product_r .product_rt .page_t { width: 161px; height: 31px; }
+
+#product .product_r .product_rt .page_t p { width: 50px; line-height: 20px; text-align: center; border: 1px solid #D6D6D6; margin: 7px 7px 0 0; cursor: pointer; background: #fff; }
+
+#product .product_r .product_rt .page_t p:hover { background: #FFA500; color: #fff; }
 
 #product .product_r .product_rc { width: 980px; margin-top: 15px; }
 
-#product .product_r .product_rc li { width: 232px; float: left; margin: 0 0 17px 17px; border: 1px solid #ccc; padding: 10px; text-align: center; }
+#product .product_r .product_rc li { width: 232px; float: left; margin: 0 0 17px 17px; border: 1px solid #ccc; padding: 10px; text-align: center; cursor: pointer; }
 
 #product .product_r .product_rc li:hover { box-shadow: 0 0 0 3px #FF9900, 2px 4px 8px 2px #888585; }
 
@@ -86,7 +90,7 @@
 
 #product .product_r .product_rc li .stock { line-height: 24px; color: #999999; }
 
-#product .product_r .product_rc .left { margin-left: 0px; }
+#product .product_r .product_rc li:nth-child(4n+1) { margin-left: 0px; }
 
 #product .product_r .page { text-align: center; border: 1px solid #ccc; display: inline-block; margin: 10px 33%; }
 
