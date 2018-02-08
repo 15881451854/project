@@ -5,6 +5,7 @@ jQuery(function($){
     $('#pageFooter').load('html/footer.html');
 
 
+
     // 首页轮播图
     var $tab = $('#banner');
     var $content = $tab.find('.bannerImg li');
@@ -83,5 +84,16 @@ jQuery(function($){
     $child[3].onclick = function(){
         window.scrollTo(0 ,2385);
     }
+
+    // 首页商品传参
+    $(".pro").on("click", "ul li", function(){
+        var params = $(this).attr("data-id");
+        location.href = "html/details.html?id="+params;
+    });
+    $("#product").on("click", "div div ul li", function(){
+        var params = $(this).attr("data-id");
+        location.href = "html/details.html?id="+params;
+    });
+
 
 });

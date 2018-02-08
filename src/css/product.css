@@ -92,6 +92,10 @@
 
 #product .product_r .product_rc li:nth-child(4n+1) { margin-left: 0px; }
 
-#product .product_r .page { text-align: center; border: 1px solid #ccc; display: inline-block; margin: 10px 33%; }
+#product .product_r .page { text-align: center; margin-bottom: 10px; }
 
-#product .product_r .page a { line-height: 36px; display: inline-block; font-size: 12px; color: #000; padding: 0 10px; border-right: 1px solid #ccc; }
+#product .product_r .page span { line-height: 36px; display: inline-block; font-size: 12px; font-weight: bold; color: #000; padding: 0 10px; border: 1px solid #ccc; cursor: pointer; color: #005AA0; }
+
+#product .product_r .page .page_number { border: 0 none; }
+
+#product .product_r .page .page_number .active { background: #FAFAFA; color: #AAAABB; }

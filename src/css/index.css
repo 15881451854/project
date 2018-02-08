@@ -34,7 +34,7 @@
 
 #recommend .recommend_l .pro ul { border-bottom: 2px solid #F0F0F0; border-top: 2px solid #F0F0F0; position: absolute; }
 
-#recommend .recommend_l .pro ul li { float: left; width: 198px; border-right: 1px solid #F0F0F0; padding: 19px; }
+#recommend .recommend_l .pro ul li { float: left; width: 198px; border-right: 1px solid #F0F0F0; padding: 19px; cursor: pointer; }
 
 #recommend .recommend_l .pro ul li img { height: 160px; }
 
@@ -88,7 +88,7 @@
 
 #product .right { width: 480px; }
 
-#product li { float: left; }
+#product li { float: left; cursor: pointer; }
 
 #product .qi p { line-height: 77px; font-size: 24px; color: #666666; border-bottom: #60B3FF solid 2px; }
 

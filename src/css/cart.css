@@ -1,0 +1,27 @@
+#cart { border-top: 2px solid #000; }
+
+#cart ul { border: 1px solid #ccc; margin-top: 20px; font-size: 12px; padding: 20px; }
+
+#cart ul li { overflow: hidden; position: relative; border-bottom: 1px solid #ccc; margin-top: 20px; }
+
+#cart ul li img { width: 100px; height: 100px; }
+
+#cart ul li .pri { margin: 20px; }
+
+#cart ul li .pri p { line-height: 30px; }
+
+#cart ul li .pri .yuan { text-decoration: line-through; }
+
+#cart ul li .pri .xian { color: #FFA500; font-size: 24px; }
+
+#cart ul li .btn { margin: 40px 0 0 200px; }
+
+#cart ul li .btn input { width: 20px; height: 20px; border: 1px solid #ccc; text-align: center; }
+
+#cart ul li span { padding: 5px 8px; position: absolute; top: 20px; right: 20px; cursor: pointer; border-radius: 5px; }
+
+#cart ul li span:hover { background: #ccc; color: #fff; }
+
+#cart .settle { line-height: 50px; text-align: right; margin-right: 100px; }
+
+#cart .settle .total { font-size: 26px; color: #FFA500; font-weight: bold; }

@@ -1,0 +1,66 @@
+#cart{
+    border-top:2px solid #000;
+    ul{
+        border:1px solid #ccc;
+        margin-top:20px;
+        font-size:12px;
+        padding:20px;
+        li{
+            overflow:hidden;
+            position:relative;
+            border-bottom:1px solid #ccc;
+            margin-top:20px;
+            img{
+                width:100px;
+                height:100px;
+            }
+            .pri{
+                margin:20px;
+                p{
+                    line-height:30px;
+                }
+                .yuan{
+                    text-decoration:line-through;
+                }
+                .xian{
+                    color:#FFA500;
+                    font-size:24px;
+                }
+            }
+            .btn{
+                margin:40px 0 0 200px;
+                input{
+                    width:20px;
+                    height:20px;
+                    border:1px solid #ccc;
+                    text-align:center;
+                }
+            }
+            span{
+                padding:5px 8px;
+                position:absolute;
+                top:20px;
+                right:20px;
+                cursor:pointer;
+                border-radius:5px;
+                &:hover{
+                    background:#ccc;
+                    color:#fff;
+                }
+            }
+        }
+    }
+
+    .settle{
+        line-height:50px;
+        text-align:right;
+        margin-right:100px;
+        .total{
+            font-size:26px;
+            color:#FFA500;
+            font-weight:bold;
+
+        }
+    }
+}
+    
