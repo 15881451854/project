@@ -5,6 +5,8 @@
     <title>login</title>
     <link rel="stylesheet" type="text/css" href="../css/base.css" />
     <link rel="stylesheet" type="text/css" href="../css/login.css" />
+    <script type="text/javascript" src="../lib/jquery-3.2.1.js"></script>
+    <script type="text/javascript" src="../js/login.js"></script>
 </head>
 <body>
     <div id="header">
@@ -21,22 +23,23 @@
         <div class="container clearfix">
             <img  class="fl"src="../img/login.png" />
             <form action="#" class="login_r fr">
-                <p class="title">没有账号?<a href="#">免费注册</a></p>
+                <p class="title">没有账号?<a href="register.html">免费注册</a></p>
                 <p class="inp">
                     <i class="phone fl"></i>
-                    <input class="fl" type="text" placeholder="用户名/手机/邮箱" />
+                    <input class="fl username" type="text" placeholder="用户名/手机/邮箱" />
+                    <span class="hint"></span>
                 </p>
                 <p class="inp">
                     <i class="lock fl"></i>
-                    <input class="fl" type="password" placeholder="密码" />
+                    <input class="fl password" type="password" placeholder="密码" />
                 </p>
                 <p class="inp">
                     <i class="shield fl"></i>
                     <input class="fl" type="text" placeholder="请输入验证码" />
-                    <span class="fr">4343</span>
+                    <span class="fr yan">4343</span>
                 </p>
                 <p class="forget">忘记密码？</p>
-                <p class="sub"><input type="submit" /></p>
+                <p class="sub"><input class="btn" type="button" value="登录" /></p>
             </form>
         </div>
     </div>

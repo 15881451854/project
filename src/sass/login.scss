@@ -45,6 +45,7 @@
             height:46px;
             border:1px solid #ccc;
             margin:30px 0 0 20px;
+            position:relative;
             input{
                 width:135px;
                 height:30px;
@@ -52,7 +53,14 @@
                 padding-left:10px;
                 margin-top:6px;
             }
-            span{
+            .hint{
+                color:red;
+                font-size:12px;
+                position:absolute;
+                top:50px;
+                left:20px;
+            }
+            .yan{
                 width:120px;
                 line-height:44px;
                 text-align:center;

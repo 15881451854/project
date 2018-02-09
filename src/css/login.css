@@ -16,11 +16,13 @@
 
 #login .login_r .title a { color: #FF9900; }
 
-#login .login_r .inp { width: 304px; height: 46px; border: 1px solid #ccc; margin: 30px 0 0 20px; }
+#login .login_r .inp { width: 304px; height: 46px; border: 1px solid #ccc; margin: 30px 0 0 20px; position: relative; }
 
 #login .login_r .inp input { width: 135px; height: 30px; border-left: 1px solid #ccc; padding-left: 10px; margin-top: 6px; }
 
-#login .login_r .inp span { width: 120px; line-height: 44px; text-align: center; background: #ccc; color: #fff; cursor: default; }
+#login .login_r .inp .hint { color: red; font-size: 12px; position: absolute; top: 50px; left: 20px; }
+
+#login .login_r .inp .yan { width: 120px; line-height: 44px; text-align: center; background: #ccc; color: #fff; cursor: default; }
 
 #login .login_r .forget { text-align: right; font-size: 14px; line-height: 40px; margin-right: 20px; }
 

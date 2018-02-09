@@ -18,10 +18,12 @@
 
 #cart ul li .btn input { width: 20px; height: 20px; border: 1px solid #ccc; text-align: center; }
 
-#cart ul li span { padding: 5px 8px; position: absolute; top: 20px; right: 20px; cursor: pointer; border-radius: 5px; }
+#cart ul li .close { padding: 5px 8px; position: absolute; top: 20px; right: 20px; cursor: pointer; border-radius: 5px; }
 
-#cart ul li span:hover { background: #ccc; color: #fff; }
+#cart ul li .close:hover { background: #ccc; color: #fff; }
 
-#cart .settle { line-height: 50px; text-align: right; margin-right: 100px; }
+#cart .settle { margin: 20px; }
 
 #cart .settle .total { font-size: 26px; color: #FFA500; font-weight: bold; }
+
+#cart .settle .wind { padding: 10px; background: #FFA500; color: #fff; border-radius: 5px; cursor: pointer; }

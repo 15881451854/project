@@ -89,6 +89,25 @@ jQuery(function($){
                 });
             });
 
+            // 上部的上一页
+            $(".page_tu").on("click", function(e){
+                pageNo = --pageNo;
+                if(pageNo<1){
+                    pageNo = 1;
+                }
+                $.ajax({
+                    url:"../api/list.php",
+                    dataType:"json",
+                    data:{
+                        pageNo:pageNo,
+                        qty:qty
+                    },
+                    success:function(data){
+                        add(data); 
+                    }
+                });
+            });
+
             // 下一页
             $(".page").find("span").last().prev().on("click", function(e){
                 pageNo = ++pageNo;
@@ -108,6 +127,24 @@ jQuery(function($){
                 });
             });
 
+            // 上部的下一页
+            $(".page_td").on("click", function(e){
+                pageNo = ++pageNo;
+                if(pageNo>pageQty){
+                    pageNo = pageQty;
+                }
+                $.ajax({
+                    url:"../api/list.php",
+                    dataType:"json",
+                    data:{
+                        pageNo:pageNo,
+                        qty:qty
+                    },
+                    success:function(data){
+                        add(data); 
+                    }
+                });
+            });
         } 
     });
 
@@ -147,6 +184,17 @@ jQuery(function($){
         location.href = "../html/details.html?id="+params;
     });
 
+    // 左边的手风琴效果
+    $(".home").on("click", function(){
+        $(".product_l dl").css({
+            height:0
+        });
+    });
 
+    $(".living").on("click", function(){
+        $(".product_l dl").css({
+            height:20
+        });
+    });
 
 });
