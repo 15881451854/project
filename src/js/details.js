@@ -1,6 +1,9 @@
-jQuery(function($){
+// jQuery(function($){
 
+require(['config'],function(){
     // 加载头部尾部
+
+    require(['jquery',"zoom"],function($){
     $('#pageHeader').load('../html/header.html');
     $('#pageFooter').load('../html/footer.html');
 
@@ -271,4 +274,8 @@ jQuery(function($){
         $li2.eq(idx).addClass('active').siblings().removeClass('active');
     });
 
+
+
 });
+});
+// });

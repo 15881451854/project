@@ -1,6 +1,9 @@
-jQuery(function($){
+// jQuery(function($){
 
+require(['config'],function(){   //这里是嵌套
     // 加载头部尾部
+    require(['jquery'],function($){
+
     $('#pageHeader').load('html/header.html');
     $('#pageFooter').load('html/footer.html');
 
@@ -95,5 +98,6 @@ jQuery(function($){
         location.href = "html/details.html?id="+params;
     });
 
-
 });
+});
+// });

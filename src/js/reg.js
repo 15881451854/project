@@ -1,4 +1,9 @@
-jQuery(function($){
+// jQuery(function($){
+
+require(['config'],function(){
+    // 加载头部尾部
+
+    require(['jquery'],function($){
     $(".btn").on("click", function(){
         $.ajax({
             url:"../api/reg.php",
@@ -31,3 +36,7 @@ jQuery(function($){
         return parseInt(Math.random()*(max-min+1)) + min
     }
 });
+});
+
+
+// });

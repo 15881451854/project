@@ -1,4 +1,7 @@
-jQuery(function($){
+// jQuery(function($){
+
+require(['config'],function(){
+    require(['jquery'],function($){
     $(".btn").on("click", function(){
         $.ajax({
             url:"../api/login.php",
@@ -28,4 +31,9 @@ jQuery(function($){
     function randomNumber(min,max){
         return parseInt(Math.random()*(max-min+1)) + min
     }
+
+
 });
+});
+
+// });
